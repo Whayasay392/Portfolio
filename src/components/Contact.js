@@ -44,7 +44,7 @@ import {faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
                    {/* Phone icon */}
                    <div className="d-flex my-3">
                        <FontAwesomeIcon className="contactIcon text-white " rotation={90}  icon={faPhone}  />
-                   <a href="tel:+2348105616162" className="contactLink text-white mx-3">+2348105616162</a>
+                   <a href="tel:+447926112885" className="contactLink text-white mx-3">+447926112885</a>
                    </div>
                    {/* Linkelidn icon */}
                    <div className="d-flex my-3">
