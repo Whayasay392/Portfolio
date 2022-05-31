@@ -19,13 +19,13 @@ export class Projects extends Component {
                         <section className="projectIcons : py-4">
                             <Col className="projectCol d-flex justify-content-end">
                                 <div className="gitIcons ">
-                                    <a href="#" className="projectIcon text-white px-3"> 
+                                    <a href="#https://github.com/Whayasay392/myXpense-WebApp" className="projectIcon text-white px-3"> 
                                     <FontAwesomeIcon className="" icon={faGithub} />
                                      </a>
                                     </div>
 
                                     <div>
-                                   <a href="#" className="projectIcon  text-white">
+                                   <a href="#https://whayasayxpense.netlify.app/" className="projectIcon  text-white">
                                 <FontAwesomeIcon  icon={faExternalLinkAlt} />
                             </a>
                                 </div>
@@ -35,8 +35,8 @@ export class Projects extends Component {
                         </section>
                         <section>
                             <Col >
-                                <h1 className="projectName : text-white">Digital Clock</h1>
-                                <p className="projectLanguage : text-white">HTML, CSS & JAVASCRIPT </p>
+                                <h1 className="projectName : text-white">myXpense Tracker</h1>
+                                <p className="projectLanguage : text-white">React Js </p>
                             </Col>
                             
                         </section>
@@ -50,13 +50,13 @@ export class Projects extends Component {
                         <section className="projectIcons : py-4">
                             <Col  className="d-flex justify-content-end">
                                 <div className="">
-                                    <a href="#" className="projectIcon text-white px-3"> 
+                                    <a href="#https://github.com/Whayasay392/E-millenial" className="projectIcon text-white px-3"> 
                                     <FontAwesomeIcon className="" icon={faGithub} />
                                      </a>
                                     </div>
 
                                     <div>
-                                   <a href="#" className="projectIcon  text-white">
+                                   <a href="#https://whayasay-emillenial.netlify.app/" className="projectIcon  text-white">
                                 <FontAwesomeIcon  icon={faExternalLinkAlt} />
                             </a>
                                 </div>
@@ -66,7 +66,7 @@ export class Projects extends Component {
                         </section>
                         <section>
                             <Col>
-                                <h1 className="projectName : text-white">Digital Clock</h1>
+                                <h1 className="projectName : text-white">E-Millenia</h1>
                                 <p className="projectLanguage : text-white">HTML, CSS & JAVASCRIPT </p>
                             </Col>
                             
@@ -81,13 +81,13 @@ export class Projects extends Component {
                         <section className="projectIcons : py-4">
                             <Col  className="d-flex justify-content-end">
                                 <div className="">
-                                    <a href="#" className="projectIcon text-white px-3"> 
+                                    <a href="#https://github.com/Whayasay392/FitMe" className="projectIcon text-white px-3"> 
                                     <FontAwesomeIcon className="" icon={faGithub} />
                                      </a>
                                     </div>
 
                                     <div>
-                                   <a href="#" className="projectIcon  text-white">
+                                   <a href="#https://fitme-page.netlify.app/" className="projectIcon  text-white">
                                 <FontAwesomeIcon  icon={faExternalLinkAlt} />
                             </a>
                                 </div>
@@ -97,7 +97,7 @@ export class Projects extends Component {
                         </section>
                         <section>
                             <Col sm="7" lg="7">
-                                <h1 className="projectName : text-white">Digital Clock</h1>
+                                <h1 className="projectName : text-white">FitMe page</h1>
                                 <p className="projectLanguage : text-white">HTML, CSS & JAVASCRIPT </p>
                             </Col>
                             

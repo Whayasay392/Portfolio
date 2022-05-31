@@ -30,13 +30,28 @@ main    {
     font-size: 3rem;
     line-height: 5rem;
 }
+
 .myStack {
     font-size: 1.5rem;
     font-family: 'Prosto One', cursive;
     line-height: 3.5rem;
     color: gold;
     font-weight: 800;
+    /* overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    width: 0; display: inline-block;
+    animation: typing 1s steps(18, end) forwards, blink .8s step-end infinite ; */
 }
+/* @keyframes typing {
+    from {width: 0 }
+    to {width : 100%}
+}
+@keyframes blink {
+    from, to {border-color: transparent}
+    50% {border-color: orange}
+} */
+
 .aboutText  {
     font-size: 1rem;
     font-weight: 600;
@@ -86,11 +101,11 @@ main    {
     
 }
 .projectBtn {
-    background: gold;
+    background: #06b;
     font-size: 1.2rem;
     font-weight: 600;
     border-radius: 6px;
-    border: 1px solid gold;
+    border: 1px solid #06b;
     transition: .2s;
 }
 .projectBtn:hover {
@@ -115,11 +130,11 @@ main    {
     border: 1px solid rgb(83, 76, 76) !important;
 }
 .sendBtn    {
-    background: gold !important;
+    background: #06b !important;
     font-size: 1.2rem;
     font-weight: 600;
     border-radius: 6px;
-    border: 1px solid gold !important;
+    border: 1px solid #06b !important;
     transition: .2s;
 }
 .contactIcon    {

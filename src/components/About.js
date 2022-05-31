@@ -17,9 +17,11 @@ class About extends Component {
                     <Col  sm="11" lg="5">
                     <h5 className="aboutIntro my-2 : text-white">HI THERE I'm </h5>
                      <h4 className="aboutName : text-white">OKUNOLA WASIU</h4>
-                    <h6 className="myStack">FRONTEND DEVELOPER</h6>
-                    <p className="aboutText : text-white">I enjoy the future of work and emerging tech spaces. I design interfaces & challenge existing modes of tech metaphors to 
-                    tackle complexity.</p>
+                
+                           <h6 className="myStack">FRONTEND DEVELOPER</h6>
+                    
+                  
+                    <p className="aboutText : text-white">A frontend developer with a track record of writing clean and efficient code, I attribute this to my ability to self manage during independent project as well as collaborating efficiently as a team.</p>
                     </Col>
                 </Row>
                 

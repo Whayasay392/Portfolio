@@ -3,6 +3,7 @@ import Nav from 'react-bootstrap/Nav'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Col, Container, Row, NavDropdown } from 'react-bootstrap'
 import logo from './Images/logo.png'
+import Pdf from '../files/Wasiu_Okunola_Resume_31-05-2022-21-50-21.pdf';
 
 
 class Navbar extends Component {
@@ -23,10 +24,10 @@ class Navbar extends Component {
                     <Col>
                      <Nav className="justify-content-end py-auto" >
                      <Nav.Item>
-                     <Nav.Link className="navLink : text-white" href="/home">PAST WORKS</Nav.Link>
+                     <Nav.Link className="navLink : text-white" href="/src/components/Projects.js">PAST WORKS</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                    <Nav.Link className="navLink : text-white" >RESUME</Nav.Link>
+                    <Nav.Link href={Pdf} without rel='noopener noreferrer' className="navLink : text-white" target='_blank' >RESUME</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                     <Nav.Link className="navLink : text-white" >HIRE ME</Nav.Link>
@@ -35,26 +36,6 @@ class Navbar extends Component {
                     </Nav>
 
                         
-{/* 
-                          <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-  <Container>
-   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-  <Navbar.Collapse id="responsive-navbar-nav">
-    <Nav className="me-auto">
-    <Nav.Item>
-                     <Nav.Link className="navLink : text-white" href="/home">PAST WORKS</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                    <Nav.Link className="navLink : text-white" >RESUME</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                    <Nav.Link className="navLink : text-white" >HIRE ME</Nav.Link>
-                    </Nav.Item>
-    </Nav> 
-     
-  </Navbar.Collapse>
-  </Container>
-</Navbar> */}
 
 
                     </Col>

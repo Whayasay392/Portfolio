@@ -1,11 +1,37 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import React, { Component } from 'react'
+import React, {  useState } from 'react'
 import { Col, Form, Row, Button } from 'react-bootstrap'
 import {faPhone, faEnvelopeOpen} from '@fortawesome/free-solid-svg-icons'
-import {faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import {faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { send } from 'emailjs-com';
 
- class Contact extends Component {
-    render() {
+
+ function Contact () {
+    const [toSend, setTosend] = useState({
+        from_name: '',
+        message: '',
+        reply_to: '',
+    });
+
+    const handleSubmit = (e) => {
+            e.preventDefault();
+            send(
+                'SERVICE ID',
+                'TEMPLATE ID',
+                toSend,
+              
+            )
+            .then((res) => {
+                console.log('SUCCESS !', res.status,res.text);
+            })
+            .catch((error) => {
+                console.log('FAILED ..', error);
+            });
+    }
+
+    const handleChange = (e) => {
+        setTosend({...toSend, [e.target.name]: e.target.value})
+    }
         return (
             <div className="pt-1 pt-lg-5">
                 <div className="mb-1 mb-lg-5">
@@ -22,15 +48,15 @@ import {faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
                             <input className="formGroup mb-4 w-100" type="textarea" placeholder="Your Message" rows={5} /> */}
 
 
-                            <Form.Group className=" my-4" >
-                                <Form.Control className="formGroup" type="text" placeholder="Full Name" />
+                            <Form.Group onSubmit={handleSubmit} className=" my-4" >
+                                <Form.Control className="formGroup" type="text" placeholder="Full Name" name='from_name' value={toSend.from_name} onChange={handleChange} />
                             </Form.Group>
                             <Form.Group className=" mb-4">
-                            <Form.Control className="formGroup" type="email" placeholder="Enter email" />
+                            <Form.Control className="formGroup" type="email" placeholder="Enter email" name='reply_to' value={toSend.reply_to} onChange={handleChange} />
                     </Form.Group>
 
                     <Form.Group className=" mb-4">
-                        <Form.Control className="formGroup" as="textarea" placeholder="Your Message" rows={5} />
+                        <Form.Control className="formGroup" as="textarea" placeholder="Your Message" rows={5} name='message' value={toSend.message} onChange={handleChange}/>
                     </Form.Group> 
                         
                     <Button className="sendBtn w-100" type="submit">SEND</Button>
@@ -75,6 +101,6 @@ import {faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
             </div>
         )
     }
-}
+
 
 export default Contact
