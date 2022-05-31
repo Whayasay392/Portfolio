@@ -111,7 +111,9 @@ export class Projects extends Component {
                 
 {/* See more Button */}
             <section className="d-flex justify-content-center py-3">
-                <button className="projectBtn text-white px-5 py-2">SEE MORE</button>
+               <a href='https://github.com/Whayasay392' target='_blank'>
+                   <button className="projectBtn text-white px-5 py-2">SEE MORE</button>
+                   </a> 
             </section>
             </div>
         )
