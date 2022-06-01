@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import Nav from 'react-bootstrap/Nav'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { Col, Container, Row, NavDropdown } from 'react-bootstrap'
+import { Col, Row,  } from 'react-bootstrap'
 import logo from './Images/logo.png'
 import Pdf from '../files/Wasiu_Okunola_Resume_31-05-2022-21-50-21.pdf';
 
