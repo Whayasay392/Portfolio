@@ -43,10 +43,6 @@ import { send } from 'emailjs-com';
                 <Row className="d-flex justify-content-between">
                     <Col sm="11" lg="6">
                         <Form className="w-100">
-                            {/* <input className="formGroup mb-4 w-100" type="text" placeholder="Full Name" />
-                            <input className="formGroup mb-4 w-100" type="text" placeholder="Enter email" />
-                            <input className="formGroup mb-4 w-100" type="textarea" placeholder="Your Message" rows={5} /> */}
-
 
                             <Form.Group onSubmit={handleSubmit} className=" my-4" >
                                 <Form.Control className="formGroup" type="text" placeholder="Full Name" name='from_name' value={toSend.from_name} onChange={handleChange} />

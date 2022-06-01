@@ -1,8 +1,5 @@
 import React, { Component } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faGithub} from '@fortawesome/free-brands-svg-icons'
-import {faExternalLinkAlt} from '@fortawesome/free-solid-svg-icons'
-import { Col, Row } from 'react-bootstrap'
 // import IconBootstrap from 'react-devicon/bootstrap/plain'
 // import IconCss3 from 'react-devicon/css3/original-wordmark'
 // import IconJavascript from 'react-devicon/javascript/original'
