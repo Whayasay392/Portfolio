@@ -19,7 +19,7 @@ import { send } from 'emailjs-com';
                 'SERVICE ID',
                 'TEMPLATE ID',
                 toSend,
-              
+              ''
             )
             .then((res) => {
                 console.log('SUCCESS !', res.status,res.text);

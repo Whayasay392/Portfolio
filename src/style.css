@@ -59,7 +59,7 @@ main    {
 }
 .projectIcons   {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 }
 .projectIcon    {
     font-size: 2rem;
