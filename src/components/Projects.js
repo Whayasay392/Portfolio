@@ -19,13 +19,13 @@ export class Projects extends Component {
                         <section className="projectIcons : py-4">
                             <Col className="projectCol d-flex justify-content-end">
                                 <div className="gitIcons ">
-                                    <a href="#https://github.com/Whayasay392/myXpense-WebApp" className="projectIcon text-white px-3"> 
+                                    <a href="https://github.com/Whayasay392/myXpense-WebApp" target='_blank' without rel='noopener noreferrer' className="projectIcon text-white px-3"> 
                                     <FontAwesomeIcon className="" icon={faGithub} />
                                      </a>
                                     </div>
 
                                     <div>
-                                   <a href="#https://whayasayxpense.netlify.app/" className="projectIcon  text-white">
+                                   <a href="https://whayasayxpense.netlify.app/" target='_blank' without rel='noopener noreferrer' className="projectIcon  text-white">
                                 <FontAwesomeIcon  icon={faExternalLinkAlt} />
                             </a>
                                 </div>
@@ -50,13 +50,13 @@ export class Projects extends Component {
                         <section className="projectIcons : py-4">
                             <Col  className="d-flex justify-content-end">
                                 <div className="">
-                                    <a href="#https://github.com/Whayasay392/E-millenial" className="projectIcon text-white px-3"> 
+                                    <a href="https://github.com/Whayasay392/E-millenial" target='_blank' without rel='noopener noreferrer' className="projectIcon text-white px-3"> 
                                     <FontAwesomeIcon className="" icon={faGithub} />
                                      </a>
                                     </div>
 
                                     <div>
-                                   <a href="#https://whayasay-emillenial.netlify.app/" className="projectIcon  text-white">
+                                   <a href="https://whayasay-emillenial.netlify.app/" target='_blank' without rel='noopener noreferrer' className="projectIcon  text-white">
                                 <FontAwesomeIcon  icon={faExternalLinkAlt} />
                             </a>
                                 </div>
@@ -81,13 +81,13 @@ export class Projects extends Component {
                         <section className="projectIcons : py-4">
                             <Col  className="d-flex justify-content-end">
                                 <div className="">
-                                    <a href="#https://github.com/Whayasay392/FitMe" className="projectIcon text-white px-3"> 
+                                    <a href="https://github.com/Whayasay392/FitMe"  className="projectIcon text-white px-3" target='_blank' without rel='noopener noreferrer'> 
                                     <FontAwesomeIcon className="" icon={faGithub} />
                                      </a>
                                     </div>
 
                                     <div>
-                                   <a href="#https://fitme-page.netlify.app/" className="projectIcon  text-white">
+                                   <a href="https://fitme-page.netlify.app/"  className="projectIcon  text-white"target='_blank' without rel='noopener noreferrer'>
                                 <FontAwesomeIcon  icon={faExternalLinkAlt} />
                             </a>
                                 </div>
